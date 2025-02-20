@@ -5,7 +5,6 @@ My implementation turns the lights blue 15 minutes before my scheduled waking ti
 To turn the lights red, the local sunset time is accessed every 24 hours using an OpenWeather API key, to maintain accuracy througout the year.
 
 ## Creating Virutal Environment
---br--
 ### Install venv (if not installed)
 ```
 sudo apt install python3-venv -y
