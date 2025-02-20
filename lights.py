@@ -13,7 +13,7 @@ BRIGHTNESS = 0.5     # Adjust (0.0 - 1.0)
 pixels = neopixel.NeoPixel(LED_PIN, NUM_LEDS, brightness=BRIGHTNESS, auto_write=False)
 
 # OpenWeatherMap API Setup
-API_KEY = "a40584701a7b645137c41285826b7e2d"
+API_KEY = ""
 LAT = "YOUR_LATITUDE"
 LON = "YOUR_LONGITUDE"
 URL = f"http://api.openweathermap.org/data/2.5/weather?lat={LAT}&lon={LON}&appid={API_KEY}"
