@@ -1,0 +1,7 @@
+pip
+rpi_ws281x
+adafruit-circuitpython-neopixel
+board
+neopixel
+requests
+datetime

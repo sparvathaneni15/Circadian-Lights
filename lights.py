@@ -1,8 +1,14 @@
 import board
 import neopixel
 import requests
+import time
 from datetime import datetime
 from time import sleep
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
 
 # LED Configuration
 LED_PIN = board.D18  # GPIO18 (PWM Pin)
